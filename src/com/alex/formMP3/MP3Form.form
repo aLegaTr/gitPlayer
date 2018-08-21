@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.alex.formMP3.MP3Form">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="31" width="516" height="612"/>
+    </constraints>
+    <properties/>
+    <border type="empty">
+      <size top="5" left="5" bottom="5" right="5"/>
+    </border>
+    <children>
+      <grid id="79120" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="empty">
+          <title-color color="-12568023"/>
+          <size top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children>
+          <scrollpane id="130d8">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="696b2" class="javax.swing.JList" binding="playList">
+                <constraints/>
+                <properties>
+                  <foreground color="-12568023"/>
+                  <selectionBackground color="-12568023"/>
+                  <selectionForeground color="-4475464"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="8ded1" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/prev-icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dd5b" class="javax.swing.JButton" binding="playButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/play.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="60c9c" class="javax.swing.JButton" binding="pauseButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/Pause-icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="95f7e" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/stop-red-icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="11bb3" class="javax.swing.JButton" binding="aheadButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/next-icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fb7da" class="javax.swing.JSlider" binding="namePlaySound">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <foreground color="-4475464"/>
+          <inverted value="false"/>
+          <maximum value="1000"/>
+          <paintLabels value="false"/>
+          <paintTicks value="false"/>
+          <snapToTicks value="false"/>
+          <toolTipText value=""/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="607a1" class="javax.swing.JSlider" binding="valueVolume">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4475464"/>
+        </properties>
+      </component>
+      <component id="a751" class="javax.swing.JButton" binding="offSoundButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/speaker.png"/>
+          <selected value="false"/>
+          <selectedIcon value="com/alex/icon/mute.png"/>
+          <text value=""/>
+          <toolTipText value="Выключить звук"/>
+        </properties>
+      </component>
+      <component id="f1354" class="javax.swing.JButton" binding="downButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/arrow-down-icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="762db" class="javax.swing.JButton" binding="addButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/plus_16.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="49aa4" class="javax.swing.JButton" binding="removeButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/remove_icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a25c9" class="javax.swing.JButton" binding="uppButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/arrow-up-icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="44b9d" class="javax.swing.JTextField" binding="textFind">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <enabled value="true"/>
+          <text value=""/>
+          <toolTipText value="Введите название песни"/>
+        </properties>
+      </component>
+      <component id="2f9f7" class="javax.swing.JButton" binding="findButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/alex/icon/search_16.png"/>
+          <text value=""/>
+          <toolTipText value="Найти"/>
+        </properties>
+      </component>
+      <component id="f5f00" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
