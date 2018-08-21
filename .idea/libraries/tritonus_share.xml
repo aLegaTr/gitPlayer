@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="tritonus_share">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/tritonus_share.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/jmactritonusspi1.74.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/commons-logging-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/jl1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/jflac-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/vorbisspi1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/jspeex0.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/jorbis-0.0.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/mp3spi1.9.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/kj_dsp1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/alex/lib/jogg-0.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
