@@ -1,2 +1,2 @@
 # gitPlayer
-MP3Player Java JavaSwing
+MP3Player Java+JavaSwing
